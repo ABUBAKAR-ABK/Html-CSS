@@ -1,0 +1,37 @@
+#mainTopic{
+    color: blue;
+}
+
+*{
+    text-align :center;
+}
+h1 , h3 , h5 {
+    font-style : "georgia";
+}
+.stylep{
+    background-color: cornflowerblue;
+    color:white;
+}
+#yes{
+    background-color: purple;
+    color: azure;
+}
+button {
+    background-color: purple;
+    color: azure;
+}
+button:hover {
+    background-color: yellow;
+    color : blue ;
+}
+h3::first-letter{
+    color : red;
+}
+input[type="checkbox"]:checked::after {
+    content: '✔';
+    position: absolute;
+    left: 3px;
+    top: -2px;
+    font-size: 18px;
+    color: green;
+}
