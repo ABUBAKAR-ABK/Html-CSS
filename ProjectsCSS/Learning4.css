@@ -1,0 +1,40 @@
+#box1{
+    width : 100px;
+    height : 100px;
+    background: green;
+    transition: width 2s ease-in 0.5s;
+}
+#box1:hover{
+    width : 600px;
+}
+#box2{
+    
+    height : 100px;
+    width  : 100px;
+    background: blue;
+
+}
+#box2:hover{
+    transition: 2s ;
+    transform : translate (200px , 200px ) rotate(90deg);
+}
+#box3{
+    height : 100px;
+    width  : 100px;
+    background: lightblue;
+    transform : skewx(20deg);
+}
+#box4{
+    height : 100px;
+    width  : 100px;
+    background: lightgreen ;
+    box-shadow: 2px 2px 5px  green;
+}
+#mypic{
+    height :  100px;
+    width : 100px;
+    background : pink;
+    background-image : url("Ghostburn.jpg");
+    background-size: cover ;
+    opacity: 50%; 
+}
